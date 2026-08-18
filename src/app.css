@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --breakpoint-3xl: 120rem;
+  --color-brown-50: oklch(0.957 0.012 59.6);
+  --color-brown-100: oklch(0.916 0.026 63.73);
+  --color-brown-200: oklch(0.838 0.056 65.16);
+  --color-brown-300: oklch(0.756 0.067 67.26);
+  --color-brown-400: oklch(0.667 0.059 68.28);
+  --color-brown-500: oklch(0.58 0.052 68.59);
+  --color-brown-600: oklch(0.494 0.044 66.52);
+  --color-brown-700: oklch(0.407 0.037 68.1);
+  --color-brown-800: oklch(0.311 0.027 66.56);
+  --color-brown-900: oklch(0.225 0.019 66.56);
+  --color-brown-950: oklch(0.179 0.015 66.55);
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body {
+  height: 100%;
+  /* font-family: "Georgia", serif; */
+  font-family: "Merriweather", serif;
+  /* font-family: "EB Garamond", serif; */
+
+  /* font-family: Georgia, serif; */
+  /* color: oklch(0.94 0.11 .03); */
+}
+
+@utility prose-brown {
+  --tw-prose-body: var(--color-brown-800);
+  --tw-prose-headings: var(--color-brown-900);
+  --tw-prose-lead: var(--color-brown-700);
+  --tw-prose-links: var(--color-brown-900);
+  --tw-prose-bold: var(--color-brown-900);
+  --tw-prose-counters: var(--color-brown-600);
+  --tw-prose-bullets: var(--color-brown-400);
+  --tw-prose-hr: var(--color-brown-300);
+  --tw-prose-quotes: var(--color-brown-900);
+  --tw-prose-quote-borders: var(--color-brown-300);
+  --tw-prose-captions: var(--color-brown-700);
+  --tw-prose-code: var(--color-brown-900);
+  --tw-prose-pre-code: var(--color-brown-100);
+  --tw-prose-pre-bg: var(--color-brown-900);
+  --tw-prose-th-borders: var(--color-brown-300);
+  --tw-prose-td-borders: var(--color-brown-200);
+  --tw-prose-invert-body: var(--color-brown-200);
+  --tw-prose-invert-headings: var(--color-brown-100);
+  --tw-prose-invert-lead: var(--color-brown-300);
+  --tw-prose-invert-links: var(--color-brown-100);
+  --tw-prose-invert-bold: var(--color-brown-100);
+  --tw-prose-invert-counters: var(--color-brown-400);
+  --tw-prose-invert-bullets: var(--color-brown-600);
+  --tw-prose-invert-hr: var(--color-brown-700);
+  --tw-prose-invert-quotes: var(--color-brown-100);
+  --tw-prose-invert-quote-borders: var(--color-brown-700);
+  --tw-prose-invert-captions: var(--color-brown-400);
+  --tw-prose-invert-code: var(--color-brown-100);
+  --tw-prose-invert-pre-code: var(--color-brown-300);
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: var(--color-brown-600);
+  --tw-prose-invert-td-borders: var(--color-brown-700);
+}
+
+@utility flex-wrap-balance {
+  flex-wrap: balance;
+}
+
+.bean {
+  --color-well-read-50: #fdf4f3;
+  --color-well-read-100: #faece9;
+  --color-well-read-200: #f6d8d5;
+  --color-well-read-300: #eeb9b3;
+  --color-well-read-400: #e39089;
+  --color-well-read-500: #d5645e;
+  --color-well-read-600: #b83c3c;
+  --color-well-read-700: #a12f32;
+  --color-well-read-800: #872a30;
+  --color-well-read-900: #74272e;
+  --color-well-read-950: #401114;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    scrollbar-color: var(--color-brown-200) var(--color-brown-900);
+  }
+}
