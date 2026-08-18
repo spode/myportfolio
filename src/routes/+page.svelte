@@ -19,10 +19,10 @@
         <div class="flex flex-col md:flex-row items-center gap-2">
             <p class="lead">
                 I love technology and have always been a technical sysadmin-type
-                person. I have pivoting towards web and software development,
+                person. Nowadays I do a lot of web and software development,
                 largely due to discovering fullstack frameworks and how fun it
                 is to make something both nice-looking and responsive, and also
-                how smoothly it can be deployed to the web.
+                how easily it can be deployed to the web.
             </p>
             <div class="picandsocials flex flex-col gap-4">
                 <div class="flex flex-row gap-4">
