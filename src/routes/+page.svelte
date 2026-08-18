@@ -166,10 +166,10 @@
         </div>
         <h4>Computer Science @ Umeå Universitet, 2015</h4>
         <p>
-            Studied programming in C, objectoriented programming in Java,
+            Studied programming in C, object-oriented programming in Java,
             HTML/CSS, maths and more.
         </p>
-        <div class="tags flex flex-wrap gap-2">
+        <div class="tags flex flex-wrap gap-2 pb-20">
             <Tag>Java</Tag>
             <Tag>C</Tag>
             <Tag>HTML & CSS</Tag>
@@ -180,4 +180,8 @@
 
 <svelte:head>
     <title>Chris, Fullstack Developer</title>
+    <meta
+        name="description"
+        content="Resume/portfolio website for Christian Bång"
+    />
 </svelte:head>
